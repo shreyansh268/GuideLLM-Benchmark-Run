@@ -14,5 +14,5 @@ This repo documents the process and findings from benchmarking a locally hosted 
 ```bash
 guidellm benchmark --target "http://localhost:1234/v1" --profile synchronous --data benchmark/embedding.txt --max-seconds 90
 guidellm benchmark --target "http://localhost:1234/v1" --profile sweep --max-seconds 300 --data benchmark/embedding.txt
+```
 
-<img width="522" height="233" alt="guidellm_comparison_other_eval_frameworks" src="https://github.com/user-attachments/assets/2132aaa1-927a-4ad7-b08b-f141ad455af5" />
